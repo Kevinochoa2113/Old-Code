@@ -1,0 +1,41 @@
+p{
+    color: blueviolet;
+    border:solid 3px orange;
+}
+p.col-1-2{
+    color: black;
+}
+.col-1-2{
+    width: calc(50% - 6px);
+    float: left;
+}
+#grey{
+    color:grey;
+}
+
+span{
+    color: chocolate;
+    border: orchid dotted 5px;
+}
+div{
+    margin:10px;
+    padding:10px;
+    width: calc(60% - 20px - 20px);
+    background-color: palegreen;
+    text-decoration: dashed underline palevioletred;
+}
+main{
+    border: black solid 2px;
+}
+img{
+    transform: rotate(90deg)
+}
+
+@media(max-width: 400px){
+    img{
+        transform: rotate(270deg);
+    }
+    header{
+        width: 400px;
+    }
+}
